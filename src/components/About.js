@@ -20,15 +20,15 @@ const About = () => {
             </p>
 
            <div className="mt-2">
-            <h2 className='font-bold text-2lg text-rose-500'>My Appoach</h2>
-            <p> I'm a firm believer in the power of continuous learning.
-                The tech world moves at an astonishing pace, and
-                I'm committed to staying up-to-date with the latest 
-                technologies and best practices. I love the process of 
-                learning, experimenting, and pushing the boundaries of 
-                what I can achieve. Every project is an opportunity to 
-                grow and refine my skills. 
-            </p>
+              <h2 className='font-bold text-2lg text-rose-500'>My Appoach</h2>
+              <p> I'm a firm believer in the power of continuous learning.
+                  The tech world moves at an astonishing pace, and
+                  I'm committed to staying up-to-date with the latest 
+                  technologies and best practices. I love the process of 
+                  learning, experimenting, and pushing the boundaries of 
+                  what I can achieve. Every project is an opportunity to 
+                  grow and refine my skills. 
+              </p>
            </div>
           </div>
 

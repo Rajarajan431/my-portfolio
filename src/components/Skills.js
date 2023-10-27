@@ -79,8 +79,7 @@ const Skills = () => {
                             bg-opacity-20 rounded-full shadow '>
                             <img src="/images/git.png" alt="" className='relative left-1' />
                         </li>
-                        
-
+                
                     </ul>
                     
                 </div>

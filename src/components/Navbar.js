@@ -15,7 +15,7 @@ const Navbar = () => {
         <div  className="flex justify-between items-center h-24 max-w-[1240px]
              mx-auto px-4 bg-sky ">
         <h1 className='text-2xl font-mono w-full '>PORTFOLIO</h1>
-         <ul className='hidden md:flex '>
+            <ul className='hidden md:flex '>
                 <li className='p-4'>
                     <Link to='home' smooth={true} duration={500}>
                         Home

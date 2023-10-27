@@ -31,12 +31,7 @@ const Hero = () => {
                  <a href="/"><AiFillLinkedin size={30}/></a> 
                  <a href="/"><AiFillInstagram size={30}/></a> 
                 </div>
-          </div>
-
-            { /* Profile Pic */ }
-           
-
-         
+          </div>  
 
       </div>
 
