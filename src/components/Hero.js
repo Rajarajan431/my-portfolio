@@ -17,9 +17,11 @@ const Hero = () => {
         </div>
 
         <div className=" text-center">
-          <button className='text-white bg-rose-500 text-md   
+          <a 
+            className='text-white bg-rose-500 text-md   
             text-center p-3 rounded-lg'>
-            Download Resume</button>
+
+            Download Resume</a>
         </div>
 
         <div className="flex text-5xl justify-center gap-10 cursor-pointer mt-7">
