@@ -2,91 +2,96 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section>
-      <div name="projects" className='container relative py-10 max-w-full '>
-          <h2 className='text-4xl text-center text-rose-500 font-bold flex justify-center mt-[-30px]'>
-             My Projects
-          </h2>
-
-          <div className=" flex flex-col 
-              lg:flex-row py-[70px] p-2 ">
-            <div className="flex w-full relative bottom-20">
-
-              <ul className='flex flex-col mx-auto mt-4 px-2 rounded-xl pt-2
-                  lg:flex-row lg:w-[1500px] 
-                  lg:py-[100px] gap-5 md:p-5 lg:justify-evenly lg:overflow-hidden'>
-                
-                { /* first card */ }
-                  <li className='px-2 pt-2 border-4 rounded-lg relative w-[390px]'>
-                      <img src="/images/bluepalm.png" alt="Promtopia" className='border-4' />
-                  <h1 className='font-bold pt-2 text-2xl'>Promtopia</h1>
-                  <p className='pt-5'>
-                  Promptopia is a dynamic full-stack web application designed to empower users with CRUD 
-                  functionality.Explore the world of creativity with this platform that allows you to 
-                  Create, Read, Update, and Delete prompts and ideas effortlessly. The homepage provides a 
-                  glimpse into the collective imagination with a collection of user-generated suggestions, 
-                  making it a hub of inspiration. 
-                  </p>
-                  <div className='pt-5  m-2 flex justify-evenly '>
-                      <a href='/' className='px-2 relative bottom-2 bg-rose-500
-                      rounded-lg p-2 text-white'>
-                          Live Demo
-                      </a>
-                      <a href='/' className='ml-20 px-6 relative bottom-2 bg-rose-500
-                      rounded-lg p-2 text-white'>
-                          code
-                      </a>
-                  </div>
-                </li>
-                { /* second card */ }
-                <li className='px-2 pt-2 border-4 relative w-[390px] rounded-lg'>
-                      <img src="/images/bluepalm.png" alt="restaurant" className='border-4' />
-                  <h1 className='font-bold pt-2 text-2xl'>Blue Palm</h1>
-                  <p className='pt-5'>
-                    Experience culinary excellence at Gourmet Eats, a visually
-                    stunning restaurant website that I designed. Explore our
-                    mouthwatering menu, immerse yourself in the elegant ambiance, and
-                    discover the perfect spot for your next fine dining experience. From
-                    tantalizing food photography to seamless navigation, this website
-                    showcases the fusion of art and technology.
-                  </p>
-                  <div className='pt-5 m-2 flex justify-evenly '>
-                      <a href='/' className='px-2 relative bottom-2 bg-rose-500
-                      rounded-lg p-2 text-white'>
-                          Live Demo
-                      </a>
-                      <a href='/' className='ml-20 relative bottom-2 bg-rose-500
-                      rounded-lg p-2 px-6 text-white'>
-                          Code
-                      </a>
-                  </div>
-                </li>
-                { /* third card */ }
-                <li className='px-2 pt-2 border-4 relative w-[390px] rounded-lg'>
-                      <img src="/images/bluepalm.png" alt="dasboard" className='border-4' />
-                  <h1 className='font-bold pt-2 text-2xl'>Project Management</h1>
-                  <p className='pt-5'>
-                  TeamHub, a powerful full-stack web application, simplifies collaboration. 
-                  It enables users to perform CRUD operations effortlessly, 
-                  manage and assign projects to team members, and provides a centralized 
-                  platform for tracking personal projects. Team collaboration made easy. 
-                  </p>
-                  <div className='pt-4 relative md:top-[50px] m-2 flex justify-evenly '>
-                      <a href='/' className='px-2 relative bottom-2 bg-rose-500
-                      rounded-lg p-2 text-white'>
-                          Live Demo
-                      </a>
-                      <a href='/' className='ml-20 relative bottom-2 bg-rose-500
-                      rounded-lg p-2 px-6 text-white'>
-                          Code
-                      </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+   <div className="min-h-screen">
+      
+      <div className="">
+        <h1 className='text-4xl font-medium text-rose-500 
+           text-center mt-10'>
+          My Coding Projects</h1>
       </div>
-    </section>
+
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 
+        gap-2 m-5 pt-5 ">
+       
+        <div className="border-2 mt-10 mx-auto w-[370px] 
+          sm:w-[520px] shadow-md rounded-lg">
+          <img src="/images/estate.png" alt="Mern Estate" />
+          <p className='text-xl p-2'>This website is built to connect people who are looking for
+              a beautiful place to start their new journey. Users can use CRUD
+              functionalities also they can contact the owner of the House for futher 
+              details.
+          </p>
+          <span>
+            <p className='font-bold p-2'>Technologies used:</p> 
+            <p className='p-2'>React, Redux, MongoDB, Express, Git, Firebase, TailwindCSS , Nodejs </p>
+          </span>
+          
+          <div className="p-2 flex justify-evenly">
+            <a href="https://mern-estate-t4s6.onrender.com" className='p-2 w-50 text-center 
+              rounded-lg text-xl text-white bg-rose-500'>
+                Live Demo</a>
+           
+           <a href="https://github.com/Rajarajan431/Mern-Estate" 
+              className='border-2 p-2 w-50 text-center 
+              rounded-lg text-xl'>
+                Github Code</a>
+          </div>
+
+       </div>
+
+       <div className="border-2 mt-10 mx-auto w-[370px] 
+          sm:w-[520px] shadow-md rounded-lg">
+          <img src="/images/promtopia.png" alt="Mern Estate" />
+          <p className='text-xl p-2'>This website is built to connect individuals who possess
+            the skill to engage with AI models, and enabling them to share and
+            discover AI prompts in areas such as programing, food, music and etc.
+            Users can explore these prompts to spark ideas, enhance their
+            understanding of AI interactions, and encourage creativity.
+          </p>
+          <span>
+            <p className='font-bold p-2'>Technologies used:</p> 
+            <p className='p-2'>Nextjs, MongoDB, Express, Git, TailwindCSS, Nodejs </p>
+          </span>
+          
+          <div className="p-2 flex justify-evenly">
+            <a href="https://project-promtp.vercel.app" className='p-2 w-50 text-center 
+              rounded-lg text-xl text-white bg-rose-500'>
+                Live Demo</a>
+            
+            <a href="https://github.com/Rajarajan431/Project_promtp" className='border-2 p-2 w-50 text-center 
+              rounded-lg text-xl'>
+                Github Code</a>
+          </div>
+
+       </div>
+
+       <div className="border-2 mt-10 mx-auto w-[370px] 
+          sm:w-[520px] shadow-md rounded-lg">
+          <img src="/images/tastyfoods.png" alt="Mern Estate" />
+          <p className='text-xl p-2'>Welcome to Fresh Pizza - where flavor meets freshness! 
+          Indulge in our mouthwatering pizzas made with the finest ingredients. From classic 
+          Margherita to innovative specialties, each slice is a taste of perfection. Join us for a delicious 
+          journey that promises quality, variety, and the unmistakable zest of Fresh Pizza!
+          </p>
+          <span>
+            <p className='font-bold p-2'>Technologies used:</p> 
+            <p className='p-2'>React, Redux, MongoDB, Express, Git, Firebase, TailwindCSS , Nodejs </p>
+          </span>
+          
+          <div className="p-2 flex justify-evenly">
+            <a href="/" className='p-2 w-50 text-center 
+              rounded-lg text-xl text-white bg-rose-500'>
+                Live Demo</a>
+            <a href="https://github.com/Rajarajan431/TastyFoods" className='border-2 p-2 w-50 text-center 
+              rounded-lg text-xl'>
+                Github Code</a>
+          </div>
+
+       </div>
+      
+      </div>
+
+   </div>
   );
 }
 

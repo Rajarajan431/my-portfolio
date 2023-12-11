@@ -3,40 +3,40 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
  
 const Hero = () => {
   return (
-    <section>
-      { /* flex container */ }
-      <div name="home" className="container flex flex-col-reverse items-center
-        px-6 mx-auto mt-20 space-y-0 md:space-y-0 md:flex-row">
+   <div className="px-10 py-5 md:h-[640px] relative md:flex ">
 
-          { /* left item */ }
-          <div className="flex flex-col mb-32 space-y-12 lg:w-1/2">
-            <h1 className='max-w-md text-5xl font-Roboto font-bold md:text-5xl 
-              md: text-left'>
-              Hello! I'm Rajarajan
-            </h1>
-            <p className='max-w-sm text-black md:text-left relative bottom-10'>
-              <span className='font-bold text-2xl'>I am an Web Developer</span> <br />
-              <span className='text-1xl'>Transforming pixels into powerful user journeys, 
-                weaving innovation and design into every website I create</span>
-            </p>
-            <div className="left-0  md:flex justify-center md:justify-start relative bottom-[60px] ">
-              <a href="/" className='p-3 px-6 pt-3 border-2 rounded-lg 
-                hover:bg-rose-500 hover:border-pink-500 hover:text-white'>
-                Hire me
-              </a>
-            </div>
-            { /* icons */ }
-                <div className="flex relative top-[-80px] space-x-4">
-                 <a href="/"><AiFillGithub size={30}/></a> 
-                 <a href="/"><AiFillLinkedin size={30}/></a> 
-                 <a href="/"><AiFillInstagram size={30}/></a> 
-                </div>
-          </div>  
+      <div className="mt-10 lg:ml-[260px]">
+        <div className="text-center py-10 ">
+          <h1 className='text-5xl py-2 font-medium font-sans'>Hello! I am</h1>
+          <h2 className='text-5xl py-2 font-medium font-sans'>Rajarajan</h2>
+          <span className='text-md py-5 leading-8'>
+            <p className='font-md text-2xl text-rose-500'>I am a Web Developer</p> 
+            I design and code digital wonders that turn ideas into interactive realities. 
+          <br></br>
+            Welcome to my world of web development excellence.</span>
+        </div>
 
+        <div className=" text-center">
+          <button className='text-white bg-rose-500 text-md   
+            text-center p-3 rounded-lg'>
+            Download Resume</button>
+        </div>
+
+        <div className="flex text-5xl justify-center gap-10 cursor-pointer mt-7">
+          <a href="https://github.com/Rajarajan431/my-portfolio"><AiFillGithub size={30} /></a>
+          <a href="https://www.linkedin.com/in/rajarajan-r-dev/"></a><AiFillLinkedin size={30}/>
+          <a href=""></a><AiFillInstagram size={30}/>
+        </div>
+
+        
       </div>
 
-      
-    </section>
+    <div className="bg-gradient-to-b mx-auto from-teal-400-400' 
+        rounded-full w-80 h-80 mt-20">
+        <img src="/images/profile2.png" alt="profile" className='w-[400px] '  />
+      </div>
+
+   </div>
   );
 };
 
