@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Add more social media links as needed */}
         </div>
 
-        <p className="mt-4">© 2023 Your Name. All Rights Reserved.</p>
+        <p className="mt-4">© 2023 RJ.Code All Rights Reserved.</p>
       </div>
     </footer>
   );

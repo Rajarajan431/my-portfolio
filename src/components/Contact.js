@@ -10,15 +10,17 @@ const Contact = () => {
     const email = e.target.elements.email.value;
     const message = e.target.elements.message.value;
 
-   // const mailtoLink = `mailto:you@example.com?subject=Message%20from%20${name}&body=${encodeURIComponent(
-    //  `Name: ${name}\nEmail: ${email}\n\n${message}`
-    //)}`;
+   const mailtoLink = `mailto:johnyblaze431@gmail.com?subject=Message%20from%20${name}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\n${message}`
+    )}`;
 
-   // window.location.href = mailtoLink;
+    window.location.href = mailtoLink;
   };
 
   return (
-    <div className="container mx-auto mt-14 ">
+    <div 
+        id='contact'
+        className="container mx-auto mt-14 ">
       <h1 className="text-3xl font-bold mb-4 text-center">Get in Touch</h1>
       <p className="text-gray-600 mb-8 text-center">
         I'd love to hear from you! Drop me a message, and I'll get back to you as soon as possible.

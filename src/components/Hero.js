@@ -3,7 +3,9 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
  
 const Hero = () => {
   return (
-   <div className="px-10 py-5 md:h-[640px] relative md:flex ">
+   <div 
+      id='home'
+      className="px-10 py-5 md:h-[640px] relative md:flex">
 
       <div className="mt-10 lg:ml-[260px]">
         <div className="text-center py-10 ">
@@ -21,13 +23,31 @@ const Hero = () => {
             className='text-white bg-rose-500 text-md   
             text-center p-3 rounded-lg'>
 
-            Download Resume</a>
+            Download Resume
+          </a>
         </div>
 
-        <div className="flex text-5xl justify-center gap-10 cursor-pointer mt-7">
-          <a href="https://github.com/Rajarajan431/my-portfolio"><AiFillGithub size={30} /></a>
-          <a href="https://www.linkedin.com/in/rajarajan-r-dev/"></a><AiFillLinkedin size={30}/>
-          <a href=""></a><AiFillInstagram size={30}/>
+        <div className="flex text-5xl justify-evenly gap-10 cursor-pointer mt-12">
+          
+          <a 
+            href="https://github.com/Rajarajan431/my-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+              
+            <AiFillGithub size={30} />
+          </a>
+          
+          <a 
+            href="https://linkedin.com/in/rajarajan-r-dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=''  
+          >
+            <AiFillLinkedin size={30}/>
+          </a>
+          
+          <a href=""><AiFillInstagram size={30}/></a>
         </div>
 
         

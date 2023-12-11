@@ -2,7 +2,9 @@ import React from 'react';
 
 const Projects = () => {
   return (
-   <div className="min-h-screen pt-14">
+   <div 
+      id='projects'
+      className="min-h-screen pt-14">
       
       <div className="">
         <h1 className='text-4xl font-medium text-rose-500 
