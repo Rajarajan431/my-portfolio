@@ -47,9 +47,6 @@ const Hero = () => {
             <AiFillLinkedin size={30}/>
           </a>
           
-          <a href="#">
-            <AiFillInstagram size={30}/>
-          </a>
         </div>
 
         
