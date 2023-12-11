@@ -19,12 +19,12 @@ const Hero = () => {
         </div>
 
         <div className=" text-center">
-          <a 
+          <button 
             className='text-white bg-rose-500 text-md   
             text-center p-3 rounded-lg'>
 
             Download Resume
-          </a>
+          </button>
         </div>
 
         <div className="flex text-5xl justify-evenly gap-10 cursor-pointer mt-12">
