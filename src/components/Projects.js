@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 
         gap-2 m-5 pt-5 ">
        
-        <div className="border-2 mt-10 mx-auto w-[370px] 
+        <div className="border-2 mt-10 m-5 mx-auto w-[370px] 
           sm:w-[520px] shadow-md rounded-lg">
           <img src="/images/estate.png" alt="Mern Estate" />
           <p className='text-xl p-2'>This website is built to connect people who are looking for
@@ -29,7 +29,8 @@ const Projects = () => {
           </span>
           
           <div className="p-2 flex justify-evenly">
-            <a href="https://mern-estate-t4s6.onrender.com" className='p-2 w-50 text-center 
+            <a href="https://mern-estate-t4s6.onrender.com" 
+              className='p-2 w-50 text-center 
               rounded-lg text-xl text-white bg-rose-500'>
                 Live Demo</a>
            
@@ -41,7 +42,7 @@ const Projects = () => {
 
        </div>
 
-       <div className="border-2 mt-10 mx-auto w-[370px] 
+       <div className="border-2 mt-10 m-5 mx-auto w-[370px] 
           sm:w-[520px] shadow-md rounded-lg">
           <img src="/images/promtopia.png" alt="Mern Estate" />
           <p className='text-xl p-2'>This website is built to connect individuals who possess
@@ -67,7 +68,7 @@ const Projects = () => {
 
        </div>
 
-       <div className="border-2 mt-10 mx-auto w-[370px] 
+       <div className="border-2 mt-10 m-5 mx-auto w-[370px] 
           sm:w-[520px] shadow-md rounded-lg">
           <img src="/images/tastyfoods.png" alt="Mern Estate" />
           <p className='text-xl p-2'>Welcome to Fresh Pizza - where flavor meets freshness! 

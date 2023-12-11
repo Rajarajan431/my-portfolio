@@ -4,9 +4,11 @@ const About = () => {
   return (
     <div 
       id='about'
-      className="md:h-[700px] relative md:flex md:flex-row p-2 md:justify-center mt-20 md:items-center">
+      className="md:h-[700px] relative md:flex md:flex-row p-2 
+        md:justify-center mt-20 md:items-center">
 
-      <div className="border-2 shadow-md mt-10 p-6 w-[390px] h-[500px] mx-auto md:w-[570px] rounded-lg">
+      <div className="border-2 shadow-md mt-10  m-5
+        p-6 w-[390px] h-[500px] mx-auto md:w-[570px] rounded-lg">
         <h2 className='font-medium text-4xl text-rose-500 text-center'>
           About me
         </h2>
