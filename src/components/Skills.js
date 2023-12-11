@@ -5,7 +5,12 @@ const Skills = () => {
     <div 
       id='skills'
       className="mt-10 bg-white pt-10">
-    <h2 className="text-4xl font-bold mb-4 text-center text-rose-500">My Skills</h2>
+    
+    <h2 className="text-4xl font-bold mb-4 text-center text-rose-500">
+      My Skills
+      <p className='border-b-4 border-rose-500 mt-2 
+          mx-auto w-[120px]'></p>
+    </h2>
     
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 
       m-3 pt-14">

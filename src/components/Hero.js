@@ -52,11 +52,14 @@ const Hero = () => {
         
       </div>
 
-    <div className="bg-gradient-to-b mx-auto from-teal-400-400' 
+      <div className="bg-gradient-to-b mx-auto from-teal-400-400' 
         rounded-full w-80 h-80 mt-20">
         <img src="/images/profile2.png" alt="profile" className='w-[400px] '  />
       </div>
 
+      <div className="">
+        <p className='border-b-4 md:border-b-4'></p>
+      </div>
    </div>
   );
 };
