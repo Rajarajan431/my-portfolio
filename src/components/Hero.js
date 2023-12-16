@@ -56,10 +56,6 @@ const Hero = () => {
         rounded-full w-80 h-80 mt-20">
         <img src="/images/profile2.png" alt="profile" className='w-[400px] '  />
       </div>
-
-      <div className="">
-        <p className='border-b-4 md:border-b-4'></p>
-      </div>
    </div>
   );
 };
