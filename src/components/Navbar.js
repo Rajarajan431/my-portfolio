@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <section id='navbar'>
       <div className={`flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ${click ? 'bg-gray-800' : ''}`}>
-        <div></div>
-        <h1 className={`text-2xl font-mono w-full text-${click ? 'white' : 'black'}`}>RJ.Code</h1>
+        
+        <h1 className={`text-2xl font-mono w-full text-${click ? 'white' : 'black'}`}>Raja.Code</h1>
 
         {/* Hamburger Menu Button */}
         <div className="md:hidden">
